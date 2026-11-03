@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts: Jost, Manrope & Mitr -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Mitr:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo_fs.png" alt="fissionsoft" height="35">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas"
+                aria-controls="navbarOffcanvas" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvas"
+                aria-labelledby="navbarOffcanvasLabel">
+
+                <div class="offcanvas-body justify-content-center">
+                    <ul class="navbar-nav mx-auto mb-2 mb-md-0 justify-content-between align-items-center">
+                        <div class="dropdown">
+                            <button class="dropbtn">Companies</button>
+                            <div class="dropdown-content">
+                                <a href="#">Fissent Technology</a>
+                                <a href="#">One Portal</a>
+                                <a href="#">Magnus Inno Tech</a>
+                                <a href="#">FARO Technology and Services</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">About</button>
+                            <div class="dropdown-content">
+                                <a href="#">Vision & Mission</a>
+                                <a href="#">History</a>
+                                <a href="#">Executive Team</a>
+                                <a href="#">Partners</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Products & Services</button>
+                            <div class="dropdown-content">
+                                <a href="#">Products</a>
+                                <a href="#">Services</a>
+                                <a href="#">Projects</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">News</button>
+                            <div class="dropdown-content">
+                                <a href="#">News & Updates</a>
+                                <a href="#">CSR Activities</a>
+                            </div>
+                        </div>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Join Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-1">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle lang-btn" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        EN
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">TH</a></li>
+                        <li><a class="dropdown-item" href="#">EN</a></li>
+                    </ul>
+                </div>
+
+                <div class="d-flex align-items-center ms-2">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                        title="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                        title="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                        title="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content py-5 bg-subtle-warning">
+        <div class="container">
+            <div class="text-start mb-5">
+                <img src="images/logo-fission01.gif" alt="fissionsoft" class="img-fluid mb-3" style="max-height: 80px;">
+                <h1 class="fw-bold text-white">
+                    Empower Your Business
+                </h1>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 text-center p-3">
+                        <div class="card-body">
+                            <img src="images/card01.png" alt="Software Development" height="16">
+                            <p class="card-text">Software Development</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 text-center p-3">
+                        <div class="card-body">
+                            <img src="images/card02.png" alt="Data Analysis" height="16">
+                            <p class="card-text">Data Analysis</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 text-center p-3">
+                        <div class="card-body">
+                            <img src="images/card03.png" alt="Cyber Security" height="16">
+                            <p class="card-text">Cyber Security</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 text-center p-3">
+                        <div class="card-body">
+                            <img src="images/card04.png" alt="AI & Robotics" height="16">
+                            <p class="card-text">AI & Robotice</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 my-4">
+        <div class="row align-items-center gy-4">
+            <div class="col-md-6 text-center text-md-start">
+                <img src="images/work.png" alt="About Fissionsoft" class="img-fluid rounded"
+                    style="max-width: 480px; width: 100%;">
+            </div>
+            <div class="col-md-6">
+                <p class="fs-5 text-secondary lh-lg mb-0">
+                    Fissionsoft Group is an end-to-end digital innovation expert, combining the strengths of our group
+                    companies to drive organizations into the new era. Our capabilities span international-standard
+                    software development, data warehouse implementation and intelligent data analytics, enhanced
+                    cybersecurity and cloud services, and cutting-edge robotics and artificial intelligence (AI)
+                    solutions. Together, we deliver technology solutions that are reliable, secure, and truly aligned
+                    with the needs of enterprise-level businesses.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 my-4">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Services & Products</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center">
+            <div class="col">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="images/software-development-services-20.jpg" class="card-img-top" alt="Fissent ERP">
+                    <div class="card-body">
+                        <p class="card-text fw-semibold mb-0">Fissent ERP</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="images/software-development-services-20.jpg" class="card-img-top" alt="Fissent ERP">
+                    <div class="card-body">
+                        <p class="card-text fw-semibold mb-0">System Maintenance Support Solutions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="images/software-development-services-20.jpg" class="card-img-top" alt="Fissent ERP">
+                    <div class="card-body">
+                        <p class="card-text fw-semibold mb-0">Software Development Services</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="images/software-development-services-20.jpg" class="card-img-top" alt="Fissent ERP">
+                    <div class="card-body">
+                        <p class="card-text fw-semibold mb-0">Modern Website Design & Development Services</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="images/software-development-services-20.jpg" class="card-img-top" alt="Fissent ERP">
+                    <div class="card-body">
+                        <p class="card-text fw-semibold mb-0">Enterprise Document Workflow & Version Control Solutions
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ส่วน Product And Service Summary -->
+    <div class="container py-5 my-4 ">
+        <div class="row align-items-center gy-4">
+            <div class="col-lg-6 col-12">
+                <div class="mb-4">
+                    <h1 class="fw-bold">Product And Service Summary</h1>
+                </div>
+
+                <div class="row row-cols-2 g-3 mb-4">
+                    <!-- ช่องที่ 1 -->
+                    <div class="col">
+                        <div class="p-3 bg-white d-flex align-items-center">
+                            <div class="flex-shrink-0 me-3">
+                                <img src="images/work.png" alt="" class="rounded-circle"
+                                    style="width: 50px; height: 50px; object-fit: cover;">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="text-decoration-none fw-bold text-dark fs-5">All Services</a>
+                                <span class="text-muted small">12 SERVICES</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ช่องที่ 2 -->
+                    <div class="col">
+                        <div class="p-3 bg-white d-flex align-items-center">
+                            <div class="flex-shrink-0 me-3">
+                                <img src="images/work.png" alt="" class="rounded-circle"
+                                    style="width: 50px; height: 50px; object-fit: cover;">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="text-decoration-none fw-bold text-dark fs-5">All Product</a>
+                                <span class="text-muted small">18 PRODUCTS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ช่องที่ 3 -->
+                    <div class="col">
+                        <div class="p-3 bg-white d-flex align-items-center">
+                            <div class="flex-shrink-0 me-3">
+                                <img src="images/work.png" alt="" class="rounded-circle"
+                                    style="width: 50px; height: 50px; object-fit: cover;">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="text-decoration-none fw-bold text-dark fs-5">All Project</a>
+                                <span class="text-muted small">21 PROJECTS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-3 align-items-center">
+                    <div class="col-6">
+                        <div class="p-3 text-center bg-white">
+                            <h1><b>50+</b></h1>
+                            <span>Project Completed</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 text-center bg-white">
+                            <h1><b>15+</b></h1>
+                            <span>Project On Going</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 text-center text-lg-end">
+                <img src="images/homaall1.jpg" alt="Product and Service Summary" class="img-fluid rounded shadow-sm"
+                    style="max-height: 480px; width: 100%; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="container py-5 my-4">
+            <div class="text-center mb-5">
+                <h5 class="text-secondary fw-semibold text-uppercase mb-2">GET TO KNOW</h5>
+                <h1 class="fw-bold display-5">OUR GROUP</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="h-100 text-center p-3">
+                        <img src="images/fissent_logo-1.png" class="card-img-top" alt="Fissent Technology"
+                            style="object-fit: contain; height: 160px; padding: 15px;">
+                        <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold text-dark mb-4">Fissent Technology</h5>
+                            <a href="#"
+                                class="btn btn-outline-dark rounded-circle d-inline-flex align-items-center justify-content-center shadow-sm"
+                                style="width: 44px; height: 44px;" title="View Details">
+                                <i class="bi bi-arrow-right fs-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="h-100 text-center p-3">
+                        <img src="images/one-1.png" class="card-img-top" alt="One Portal"
+                            style="object-fit: contain; height: 160px; padding: 15px;">
+                        <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold text-dark mb-4">One Portal</h5>
+                            <a href="#"
+                                class="btn btn-outline-dark rounded-circle d-inline-flex align-items-center justify-content-center shadow-sm"
+                                style="width: 44px; height: 44px;" title="View Details">
+                                <i class="bi bi-arrow-right fs-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="h-100 text-center p-3">
+                        <img src="images/group-11435.png" class="card-img-top" alt="Magnus Inno Tech"
+                            style="object-fit: contain; height: 160px; padding: 15px;">
+                        <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold text-dark mb-4">Magnus Inno Tech</h5>
+                            <a href="#"
+                                class="btn btn-outline-dark rounded-circle d-inline-flex align-items-center justify-content-center shadow-sm"
+                                style="width: 44px; height: 44px;" title="View Details">
+                                <i class="bi bi-arrow-right fs-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="h-100 text-center p-3">
+                        <img src="images/mask-group.png" class="card-img-top" alt="FARO Technology and Services"
+                            style="object-fit: contain; height: 160px; padding: 15px;">
+                        <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold text-dark mb-4">FARO Technology and Services</h5>
+                            <a href="#"
+                                class="btn btn-outline-dark rounded-circle d-inline-flex align-items-center justify-content-center shadow-sm"
+                                style="width: 44px; height: 44px;" title="View Details">
+                                <i class="bi bi-arrow-right fs-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="container py-5 my-4">
+            <div class="text-center mb-5">
+                <h5 class="text-secondary fw-semibold text-uppercase mb-2">OUR BLOGS</h5>
+                <h1 class="fw-bold display-5">OUR LATEST NEWS</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm border overflow-hidden">
+                        <img src="images/work.png" class="card-img-top" alt="NEWS 01"
+                            style="height: 180px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <p class="small text-muted mb-1">2 NOV 2026</p>
+                            <h5 class="card-title fw-bold text-dark mb-3">NEWS 01</h5>
+                            <div class="mt-auto text-end">
+                                <a href="#" class="btn-solid theme-primary text-decoration-none fw-semibold">Read More
+                                    <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm border overflow-hidden">
+                        <img src="images/work.png" class="card-img-top" alt="NEWS 02"
+                            style="height: 180px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <p class="small text-muted mb-1">2 NOV 2026</p>
+                            <h5 class="card-title fw-bold text-dark mb-3">NEWS 02</h5>
+                            <div class="mt-auto text-end">
+                                <a href="#" class="btn-solid theme-primary text-decoration-none fw-semibold">Read More
+                                    <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm border overflow-hidden">
+                        <img src="images/work.png" class="card-img-top" alt="NEWS 03"
+                            style="height: 180px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <p class="small text-muted mb-1">2 NOV 2026</p>
+                            <h5 class="card-title fw-bold text-dark mb-3">NEWS 03</h5>
+                            <div class="mt-auto text-end">
+                                <a href="#" class="btn-solid theme-primary text-decoration-none fw-semibold">Read More
+                                    <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm border overflow-hidden">
+                        <img src="images/work.png" class="card-img-top" alt="NEWS 04"
+                            style="height: 180px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <p class="small text-muted mb-1">2 NOV 2026</p>
+                            <h5 class="card-title fw-bold text-dark mb-3">NEWS 04</h5>
+                            <div class="mt-auto text-end">
+                                <a href="#" class="btn-solid theme-primary text-decoration-none fw-semibold">Read More
+                                    <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100 h-100 py-5 " style="background-color: #f4d371;">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-md-7 text-center text-md-start">
+                    <h1 class="display-5 fw-bold text-dark mb-0">Let's connect and build the best solutions together.
+                    </h1>
+                </div>
+                <div class="col-md-5 d-flex justify-content-center align-items-center">
+                    <a href="mailto:contact@fissionsoft.co.th" class="fs-4 fw-bold text-dark text-decoration-none">
+                        <i class="bi bi-envelope-fill me-2"></i>contact@fissionsoft.co.th
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row h-100 py-5 px-5 " style="background-color: #f7c531;">
+        <div class="col-md-3 small">
+            <h1>Fissionsoft</h1>
+            <p>
+                82/30 Phuttamonthon Sai 3 Rd. Soi 18/1, Salathammasop Taveewatthana, Bangkok 10170
+            </p>
+            <p>contact@fissionsoft.co.th</p>
+            <div class="row">
+                <div class="col-2 d-flex justify-content-center">
+                    <i class="bi bi-telephone h1"></i>
+                </div>
+                <div class="col-10">
+                    <p>CONTACT US</p>
+                    <h4>+66 21011755</h4>
+                </div>
+            </div>
+            <div>
+                Mon - Fri 08.30 - 17.30
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h1>Company Info</h1>
+            <li>
+                <a href="">Companies</a>
+            </li>
+            <li>
+                <a href="">Vision & Mission</a>
+            </li>
+            <li>
+                <a href="">History</a>
+            </li>
+            <li>
+                <a href="">Join Us</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </div>
+        <div class="col-md-3">
+            <h1>What We Do</h1>
+            <li>
+                <a href="">Products</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">Projects</a>
+            </li>
+            <li>
+                <a href="">News & Updates</a>
+            </li>
+            <li>
+                <a href="">CSR Activities</a>
+            </li>
+        </div>
+
+        <div class="col-md-3">
+            <div class="mb-3">
+                <h1>Companies</h1>
+            </div>
+            <div>
+                <div class="row row-cols-3 g-1 mb-4">
+                    <div class="col">
+                        <div class="bg-white p-2 d-flex align-items-center justify-content-center shadow-sm"
+                            style="width: 70px; height: 70px;">
+                            <img src="images/logo_fs.png" alt="Fissionsoft"
+                                style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="bg-white p-2 d-flex align-items-center justify-content-center shadow-sm"
+                            style="width: 70px; height: 70px;">
+                            <img src="images/fissent_logo-1.png" alt="Fissent"
+                                style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="bg-white p-2 d-flex align-items-center justify-content-center shadow-sm"
+                            style="width: 70px; height: 70px;">
+                            <img src="images/one-1.png" alt="One Portal"
+                                style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="bg-white p-2 d-flex align-items-center justify-content-center shadow-sm"
+                            style="width: 70px; height: 70px;">
+                            <img src="images/group-11435.png" alt="Magnus Inno Tech"
+                                style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="bg-white p-2 d-flex align-items-center justify-content-center shadow-sm"
+                            style="width: 70px; height: 70px;">
+                            <img src="images/mask-group.png" alt="FARO Technology"
+                                style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center px-3 py-5"
+        style="background-color: #f7c531; min-height: 180px;">
+        <div class="py-3 px-4 text-center"
+            style="background-color: #000000; width: 92%; max-width: 1200px;">
+            <div class="d-flex align-items-center justify-content-center gap-3 mb-2">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="text-white fs-5"
+                    title="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="text-white fs-5"
+                    title="YouTube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-white fs-5"
+                    title="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <p class="mb-0 text-white small">Copyright © 2025 <a href="">Fissionsoft Co.,Ltd.</a> All rights
+                    reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
