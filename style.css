@@ -1,149 +1,182 @@
 /* สไตล์ Navbar ตามรูป DevTools */
-        .navbar {
-            min-height: 90px;
-            padding: 0;
-            background-color: #ffffff;
-            font-family: 'Jost', 'Mitr', sans-serif;
-            font-size: 14px;
-            color: #666666;
-        }
+.navbar {
+    min-height: 90px;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Jost', 'Mitr', sans-serif;
+    font-size: 14px;
+    color: #666666;
+}
 
-        .navbar .container-fluid {
-            min-height: 90px;
-            padding: 10px 40px;
-            color: #666666;
-            font-family: 'Jost', 'Mitr', sans-serif;
-            font-size: 14px;
-        }
+.navbar .container-fluid {
+    min-height: 90px;
+    padding: 10px 40px;
+    color: #666666;
+    font-family: 'Jost', 'Mitr', sans-serif;
+    font-size: 14px;
+}
 
-        /* สไตล์ปุ่มดรอปดาวน์และลิงก์ nav menu ตามรูป DevTools */
-        .dropbtn,
-        .navbar-nav .nav-link {
-            background-color: transparent;
-            color: #202122;
-            font-family: 'Manrope', 'Mitr', sans-serif;
-            font-size: 18px;
-            font-weight: bold;
-            margin: -9px 0px;
-            padding: 24px 20px;
-            border: none;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-        }
+/* สไตล์ปุ่มดรอปดาวน์และลิงก์ nav menu ตามรูป DevTools */
+.dropbtn,
+.navbar-nav .nav-link {
+    background-color: transparent;
+    color: #202122;
+    font-family: 'Manrope', 'Mitr', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: -9px 0px;
+    padding: 24px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
 
-        .dropbtn:hover,
-        .navbar-nav .nav-link:hover {
-            color: #000000;
-        }
+.dropbtn:hover,
+.navbar-nav .nav-link:hover {
+    color: #000000;
+}
 
-        /* ซ่อนเมนูดรอปดาวน์ไว้ก่อน */
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #ffffff;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
-            z-index: 1000;
-            border-radius: 4px;
-        }
+/* ซ่อนเมนูดรอปดาวน์ไว้ก่อน */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    border-radius: 4px;
+}
 
-        /* แสดงรายการลิงก์ด้านใน */
-        .dropdown-content a {
-            color: #202122;
-            font-family: 'Jost', 'Mitr', sans-serif;
-            font-size: 16px;
-            font-weight: bold;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
+/* แสดงรายการลิงก์ด้านใน */
+.dropdown-content a {
+    color: #202122;
+    font-family: 'Jost', 'Mitr', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 
-        .dropdown-content a:hover {
-            background-color: #f1f1f1;
-            color: #000000;
-        }
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #000000;
+}
 
-        /* เมื่อเอาเมาส์ไปวางที่ .dropdown ให้แสดง .dropdown-content ขึ้นมาทันที */
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+/* เมื่อเอาเมาส์ไปวางที่ .dropdown ให้แสดง .dropdown-content ขึ้นมาทันที */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-        /* สไตล์ไอคอน Social Media */
-        .social-link {
-            color: #202122;
-            font-size: 18px;
-            padding: 6px 8px;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            transition: color 0.2s ease;
-        }
+/* สไตล์ไอคอน Social Media */
+.social-link {
+    color: #202122;
+    font-size: 18px;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease;
+}
 
-        .social-link:hover {
-            color: #0d6efd;
-        }
+.social-link:hover {
+    color: #0d6efd;
+}
 
-        /* สไตล์ปุ่มเปลี่ยนภาษาแบบคลิก */
-        .lang-btn {
-            background-color: transparent;
-            color: #202122;
-            font-family: 'Manrope', 'Mitr', sans-serif;
-            font-size: 18px;
-            font-weight: bold;
-            border: none;
-            padding: 8px 12px;
-        }
+/* สไตล์ปุ่มเปลี่ยนภาษาแบบคลิก */
+.lang-btn {
+    background-color: transparent;
+    color: #202122;
+    font-family: 'Manrope', 'Mitr', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+}
 
-        .lang-btn:hover,
-        .lang-btn:focus,
-        .lang-btn:active {
-            color: #000000;
-            background-color: transparent;
-            border: none;
-            box-shadow: none;
-        }
+.lang-btn:hover,
+.lang-btn:focus,
+.lang-btn:active {
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
 
-        /* สไตล์ Main Content จัด Container ให้อยู่กึ่งกลางหน้าจอ */
-        .main-content {
-            background-color: rgba(0, 0, 0, 0.55);
-            min-height: calc(100vh - 90px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+/* สไตล์ Main Content จัด Container ให้อยู่กึ่งกลางหน้าจอ */
+.main-content {
+    background-color: rgba(0, 0, 0, 0.55);
+    min-height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-        .main-content .card {
-            background-color: rgba(0, 0, 0, 0.55);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(8px);
-            color: #ffffff;
-            border-radius: 12px;
-            transition: all 0.3s ease;
-        }
+.main-content .card {
+    background-color: rgba(0, 0, 0, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    color: #ffffff;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
 
-        .main-content .card img {
-            height: 60px;
-            width: auto;
-            object-fit: contain;
-        }
+.main-content .card img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
 
-        /* สไตล์ Card ส่วน Services & Products */
-        .product-card {
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid rgba(0, 0, 0, 0.08);
-            transition: transform 0.25s ease, box-shadow 0.25s ease;
-        }
+/* สไตล์ Card ส่วน Services & Products */
+.product-card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
 
-        .product-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-        }
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
 
-        .product-card .card-img-top {
-            height: 150px;
-            object-fit: cover;
-            background-color: #f8f9fa;
-        }
+.product-card .card-img-top {
+    height: 150px;
+    object-fit: cover;
+    background-color: #f8f9fa;
+}
+
+.footer-main {
+    background-color: #f7c531;
+}
+
+.footer-bottom {
+    background-color: #f7c531;
+    min-height: 180px;
+}
+
+.footer-bottom-inner {
+    background-color: #000000;
+    width: 92%;
+    max-width: 1200px;
+    border-radius: 8px 8px 0 0;
+}
+
+.company-logo-box { width: 70px; height: 70px; }
+.company-logo-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.news-img { height: 180px; object-fit: cover; }
+
+.service-sum-img { width: 50px; height: 50px; object-fit: cover; }
+
+.ourgroup-img {object-fit: contain; height: 160px; padding: 15px;}
+
+.arrow-icon {width: 44px; height: 44px;}
+
+.companies-logo {width: 70px; height: 70px;}
